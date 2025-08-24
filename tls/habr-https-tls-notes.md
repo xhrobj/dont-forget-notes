@@ -264,8 +264,18 @@ curl -v https://localhost \
 	--key Client-private-key.key 
 ```
 
+Кстати, не знаю почему это команда записана в статье именно так - в клиентском сертификате нет закрытого ключа, зачем передавать к нему пароль от закрытого ключа клиента? Скорее должно быть так:
+
+```bash
+curl -v https://localhost \
+	--cacert CA-self-signed-certificate.pem \
+	--cert Client-certificate.pem \
+	--key Client-private-key.key \
+  --pass secret
+```
+
 ⚠️ В статье получилось, у меня нет... на сервере Java при проверке клиентского сертификата валится:
 ```
 ValidatorException: TrustAnchor ... is not a CA certificate
 ```
-Это означает: сертификат в truststore не помечен как CA. Видимо, в CA-self-signed-certificate.pem нет нужных X.509 расширений, поэтому Java не считает его центром сертификации и нужно создать его как-то по-другому ... [вернуться к этому позже]
+Видимо, в CA-self-signed-certificate.pem нет нужных X.509 расширений, поэтому Java не считает его центром сертификации и нужно создать его как-то по-другому ... [вернуться к этому позже]
