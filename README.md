@@ -1,26 +1,36 @@
-# Заметки
+# LLM
 
-## Кодирование
+- [Книга: Промпт-инжиниринг для LLM](llm/prompt-engineering-for-llms.md.md)
+
+# Кодирование
 
 - [Кодирование](encoding/encoding.md)
 
-## API
-
-- [API](api/api.md)
+# Криптография
 
 ## Wong Book
 
 - [Wong Book](wong_book/wong.md)
 
+## Баzа
+
+- [DH & RSA](crypto/dh_vs_rsa.md)
+
 ## TLS 
 
-- [TLS](tls/tls.md)
-    - [Разбор статьи на Хабре](tls/habr-https-tls-notes.md)
-    - [Разбор статьи на misterpki](tls/curl-authentication.md)
+- [TLS](crypto/tls/tls.md)
+    - [Разбор статьи на Хабре]crypto/tls/habr-https-tls-notes.md)
+    - [Разбор статьи на misterpki](crypto/tls/curl-authentication.md)
 
 ## OTT
 
-- [OTT](ott/ott.md)
+- [OTT]crypto/(ott/ott.md)
+
+# API
+
+- [API](api/api.md)
+
+# Kubernetes
 
 ## k8s
 
@@ -33,3 +43,8 @@
 ## Unimon 
 
 - [Unimon](unimon/unimon.md)
+
+# Java
+
+- [Книга: Spring. Start Here](java/spring-start-here/spring-start-here.md)
+- [Книга: Trubleshooting Java](java/java_troubleshooting/troubleshooting_java.md)
