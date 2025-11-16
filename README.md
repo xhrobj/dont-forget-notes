@@ -2,11 +2,15 @@
 
 - [Книга: Spring. Start Here](java/book_spring-start-here/spring-start-here.md)
 
+- [JVM-флаги: -D, -X, -XX — краткий гид](java/jvm-flags-cheatsheet.md)
+
 ## Troubleshooting Java
 
-- [Troubleshooting Java](java/troubleshooting/java-troubleshooting-cheatsheet.md)
+- [Troubleshooting Java](java/troubleshooting/troubleshooting.md)
+
 - [jcmd](java/troubleshooting/jcmd.md)
 - [jmap](java/troubleshooting/jmap.md)
+
 - [Книга: Troubleshooting Java](java/book_java-troubleshooting/troubleshooting-java.md)
 
 
